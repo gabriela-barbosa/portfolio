@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio
+
+This is a personal portfolio project developed with [Next.js](https://nextjs.org), optimized for multiple languages.
 
 ## Getting Started
 
@@ -14,23 +16,35 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Multiple Languages**: Full internationalization support
+- **Modern Design**: Clean and responsive interface
+- **Customizable Sections**: 
+  - About
+  - Experience
+  - Skills
+  - Education
+- **Font Optimization**: Uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to load [Geist](https://vercel.com/font) font
+- **Analytics**: Integration with Vercel Analytics
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+The project follows the Next.js App Router structure:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `app/[lang]/page.jsx`: Main page with multilingual support
+- `app/components/`: Reusable interface components
+- `app/dictionaries/`: Translation files for different languages
+- `app/utils/`: Utility functions
+- `app/constants/`: Constants used in the project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+This portfolio is currently deployed on Vercel and is accessible at:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [https://gabriela-barbosa-portfolio.vercel.app/pt](https://gabriela-barbosa-portfolio.vercel.app/pt) (Portuguese)
+- [https://gabriela-barbosa-portfolio.vercel.app/en](https://gabriela-barbosa-portfolio.vercel.app/en) (English)
+- [https://gabriela-barbosa-portfolio.vercel.app/es](https://gabriela-barbosa-portfolio.vercel.app/es) (Spanish)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
