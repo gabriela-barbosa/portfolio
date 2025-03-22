@@ -1,21 +1,30 @@
 import { TECH_ICONS } from '@/app/constants/icons';
 import { FRONTEND_TECHNOLOGIES } from '@/app/constants/frontend';
 
-export default function Pill({ text, type }) {
-  const isTech = type === 'tech';
-  const icon = isTech ? TECH_ICONS[text] || '•' : null;
-  const isFrontendTech = isTech && FRONTEND_TECHNOLOGIES.includes(text);
+export default function Pill({ children, filled = false, small = false, accent = false }) {
+  let classes = "inline-flex items-center rounded-full transition-all duration-200 ";
+  
+  if (small) {
+    classes += "px-2.5 py-0.5 text-xs ";
+  } else {
+    classes += "px-3 py-1 text-sm ";
+  }
+  
+  if (filled) {
+    classes += accent 
+      ? "bg-primary text-background border-primary " 
+      : "bg-card-bg text-foreground border-border-color ";
+  } else {
+    classes += accent 
+      ? "bg-transparent text-primary border-primary " 
+      : "bg-transparent text-foreground/80 border-border-color hover:border-primary hover:text-primary ";
+  }
+  
+  classes += "border ";
   
   return (
-    <span 
-      className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium transition-all duration-300 
-        ${isFrontendTech 
-          ? 'bg-primary/15 text-primary hover:bg-primary/25' 
-          : 'bg-card-bg/50 text-foreground/75 border border-border-color/40 hover:text-foreground'
-        }`}
-    >
-      {icon && <span className="mr-1">{icon}</span>}
-      {text}
+    <span className={classes}>
+      {children}
     </span>
   );
 } 

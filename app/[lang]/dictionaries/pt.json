@@ -1,6 +1,8 @@
 {
   "name": "Gabriela Barbosa",
-  "title": "Frontend Software Engineer",
+  "title": "Engenheira de Software Frontend",
+  "description": "Desenvolvedora **|Frontend|** especialista em criar interfaces modernas e responsivas com **#React#**, **#Next.js#** e **#TypeScript#**.",
+  "experience_summary": "Experiência em projetos para empresas como **#Mercado Livre#**, **#Loggi#**, **#OLX#**, **#M4U#** e **#Lend#**.",
   "nav": {
     "about": "Sobre",
     "experience": "Experiência",
@@ -9,11 +11,11 @@
   },
   "links": {
     "linkedin": "LinkedIn",
-    "email": "Email"
+    "email": "E-mail"
   },
   "about": {
     "title": "Sobre",
-    "content": "Desenvolvedora de software especializada em tecnologias front-end e experiência do usuário. Crio interfaces elegantes e responsivas que melhoram a interação dos usuários. Trabalho em equipes ágeis para empresas de tecnologia, desenvolvendo produtos digitais inovadores."
+    "content": "Desenvolvedora de software especializada em tecnologias front-end e experiência do usuário. Crio interfaces elegantes e responsivas que aprimoram a interação do usuário. Trabalho em equipes ágeis para empresas de tecnologia, desenvolvendo produtos digitais inovadores."
   },
   "experience": {
     "title": "Experiência",
@@ -21,7 +23,7 @@
       {
         "title": "Engenheira de Software",
         "company": "Mercado Livre",
-        "period": "janeiro de 2025 - Presente",
+        "period": "Janeiro 2025 - Presente",
         "responsibilities": [
           "Desenvolvimento frontend com tecnologias modernas"
         ],
@@ -30,11 +32,11 @@
       {
         "title": "Engenheira de Software",
         "company": "Loggi",
-        "period": "setembro de 2023 - janeiro de 2025",
+        "period": "Setembro 2023 - Janeiro 2025",
         "responsibilities": [
           "Reconstrução do aplicativo e site da empresa",
-          "Reformulação do frontend focada na experiência do usuário",
-          "Criação de nova biblioteca de design system",
+          "Redesign de frontend focado na experiência do usuário",
+          "Criação de nova biblioteca de sistema de design",
           "Desenvolvimento de páginas responsivas e otimizadas"
         ],
         "technologies": ["Next.js", "React", "TypeScript", "Material UI"]
@@ -42,29 +44,29 @@
       {
         "title": "Engenheira de Software",
         "company": "Lend",
-        "period": "outubro de 2022 - maio de 2023",
+        "period": "Outubro 2022 - Maio 2023",
         "responsibilities": [
           "Desenvolvimento Full Stack em projetos de CCB as a Service",
           "Criação e manutenção de APIs REST",
-          "Aplicação de metodologia Scrum"
+          "Aplicação da metodologia Scrum"
         ],
-        "technologies": ["Next.js", "React", "TypeScript", "Python", "FastAPI", "REST APIs", "Git"]
+        "technologies": ["Next.js", "React", "TypeScript", "Python", "FastAPI", "APIs REST", "Git"]
       },
       {
         "title": "Engenheira de Software",
         "company": "OLX Brasil",
-        "period": "julho de 2021 - outubro de 2022",
+        "period": "Julho 2021 - Outubro 2022",
         "responsibilities": [
-          "Desenvolvimento Full Stack no time de User Notification",
+          "Desenvolvimento Full Stack no time de Notificação de Usuários",
           "Implementação de soluções serverless",
           "Monitoramento de aplicações"
         ],
-        "technologies": ["React", "TypeScript", "JavaScript", "Node.js", "AWS", "Serverless", "Docker", "PostgreSQL", "Git"]
+        "technologies": ["React", "TypeScript", "JavaScript", "Node.js", "Nest.js", "AWS", "Serverless", "PostgreSQL"]
       },
       {
         "title": "Analista de Desenvolvimento",
         "company": "M4U",
-        "period": "janeiro de 2021 - julho de 2021",
+        "period": "Janeiro 2021 - Julho 2021",
         "responsibilities": [
           "Desenvolvimento web em projetos de sub-adquirência",
           "Desenvolvimento frontend e backend",
@@ -75,17 +77,17 @@
       {
         "title": "Estagiária de Desenvolvimento",
         "company": "M4U",
-        "period": "janeiro de 2020 - janeiro de 2021",
+        "period": "Janeiro 2020 - Janeiro 2021",
         "responsibilities": [
           "Desenvolvimento web em projetos de sub-adquirência",
-          "Trabalho em equipe com metodologias ágeis"
+          "Colaboração em equipe com metodologias ágeis"
         ],
         "technologies": ["React", "JavaScript"]
       },
       {
         "title": "Estagiária de Desenvolvimento",
         "company": "BNDES",
-        "period": "março de 2018 - janeiro de 2020",
+        "period": "Março 2018 - Janeiro 2020",
         "responsibilities": [
           "Desenvolvimento Full Stack",
           "Desenvolvimento de APIs e interfaces de usuário"
@@ -103,10 +105,10 @@
       },
       "backend": {
         "title": "Backend",
-        "items": ["Node.js", "Python", "Java", "Kotlin", "SpringBoot", "Go", "FastAPI", "REST APIs", "SQL", "PostgreSQL"]
+        "items": ["Node.js", "Python", "Java", "Kotlin", "SpringBoot", "Go", "FastAPI", "APIs REST", "SQL", "PostgreSQL"]
       },
       "tools": {
-        "title": "Ferramentas & Outros",
+        "title": "Ferramentas e Outros",
         "items": ["Git", "Docker", "AWS", "Serverless", "Lambda", "SQS/SNS", "Kibana", "Grafana", "Prometheus", "Scrum", "Kanban", "Code Review", "Amplify"]
       }
     }
@@ -115,21 +117,21 @@
     "title": "Educação",
     "items": [
       {
-        "degree": "Bacharel em Ciência da Computação",
+        "degree": "Bacharelado em Ciência da Computação",
         "school": "Universidade Federal Fluminense",
         "period": "2016 - 2024"
       },
       {
-        "degree": "Certificação Amazon AWS Cloud Practitioner",
-        "school": "Amazon Web Services",
-        "period": "2023"
+        "degree": "Técnico em Informática",
+        "school": "Colégio Pedro II",
+        "period": "2013 - 2015"
       }
     ]
   },
   "site": {
     "title": "Sobre este site",
-    "content": "Portfólio construído com tecnologias modernas para demonstrar minhas habilidades em desenvolvimento web frontend.",
-    "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
+    "content": "Portfólio construído com tecnologias modernas para mostrar minhas habilidades em desenvolvimento web frontend.",
+    "technologies": ["Next.js", "React", "Tailwind CSS"]
   },
   "footer": {
     "copyright": "© {{year}} Gabriela Barbosa. Todos os direitos reservados."

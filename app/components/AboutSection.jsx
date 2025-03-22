@@ -1,6 +1,6 @@
 import SectionContainer from '@/app/components/SectionContainer';
 import SectionHeader from '@/app/components/SectionHeader';
-import { FlowerDecoration, PhotoFrame, GradientLine } from '@/app/components/decorations';
+import { FlowerDecoration, PhotoFrame } from '@/app/components/decorations';
 
 export default function AboutSection({ dictionary }) {
   return (
@@ -9,7 +9,7 @@ export default function AboutSection({ dictionary }) {
       
       <FlowerDecoration className="absolute top-4 right-4 hidden md:block" />
       
-      <div className="relative flex flex-col md:flex-row items-center md:items-start gap-8">
+      <div className="relative flex flex-col md:flex-row items-center gap-8">
         <PhotoFrame 
           src="/foto.jpg" 
           alt="Gabriela Barbosa" 
@@ -17,12 +17,11 @@ export default function AboutSection({ dictionary }) {
           priority
         />
         
-        <div className="flex-1">
+        <div className="flex-1 flex flex-col justify-center h-full">
           <p className="text-lg leading-relaxed mb-4">
             {dictionary.about.content}
           </p>
-          
-          <GradientLine />
+        
         </div>
       </div>
     </SectionContainer>

@@ -1,6 +1,8 @@
 {
   "name": "Gabriela Barbosa",
   "title": "Ingeniera de Software Frontend",
+  "description": "Desarrolladora **|Frontend|** especialista en crear interfaces modernas y responsivas con **#React#**, **#Next.js#** y **#TypeScript#**.",
+  "experience_summary": "Experiencia en proyectos para empresas como **#Mercado Livre#**, **#Loggi#**, **#OLX#**, **#M4U#** y **#Lend#**.",
   "nav": {
     "about": "Sobre mí",
     "experience": "Experiencia",
@@ -59,7 +61,7 @@
           "Implementación de soluciones serverless",
           "Monitoreo de aplicaciones"
         ],
-        "technologies": ["React", "TypeScript", "JavaScript", "Node.js", "AWS", "Serverless", "Docker", "PostgreSQL", "Git"]
+        "technologies": ["React", "TypeScript", "JavaScript", "Node.js", "Nest.js", "AWS", "Serverless", "PostgreSQL"]
       },
       {
         "title": "Analista de Desarrollo",
@@ -120,16 +122,16 @@
         "period": "2016 - 2024"
       },
       {
-        "degree": "Certificación Amazon AWS Cloud Practitioner",
-        "school": "Amazon Web Services",
-        "period": "2023"
+        "degree": "Técnico en Informática",
+        "school": "Colégio Pedro II",
+        "period": "2013 - 2015"
       }
     ]
   },
   "site": {
     "title": "Sobre este sitio",
     "content": "Portafolio construido con tecnologías modernas para demostrar mis habilidades en desarrollo web frontend.",
-    "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
+    "technologies": ["Next.js", "React", "Tailwind CSS"]
   },
   "footer": {
     "copyright": "© {{year}} Gabriela Barbosa. Todos los derechos reservados."

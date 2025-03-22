@@ -1,6 +1,5 @@
 import SectionContainer from '@/app/components/SectionContainer';
 import SectionHeader from '@/app/components/SectionHeader';
-import { GradientLine } from '@/app/components/decorations';
 
 export default function EducationSection({ dictionary }) {
   return (
@@ -54,7 +53,6 @@ export default function EducationSection({ dictionary }) {
           </div>
         ))}
         
-        <GradientLine color="secondary" />
       </div>
     </SectionContainer>
   );
