@@ -1,7 +1,6 @@
-import { Fragment } from 'react';
-import SectionHeader from './SectionHeader';
-import SectionContainer from './SectionContainer';
-import Pill from './Pill';
+import SectionHeader from '@/ui/SectionHeader';
+import SectionContainer from '@/ui/SectionContainer';
+import Pill from '@/ui/Pill';
 
 export default function ExperienceSection({ dictionary }) {
   const { experience } = dictionary;

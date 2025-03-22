@@ -1,4 +1,4 @@
-import { BorderLines } from './decorations';
+import { BorderLines } from '@/decorations';
 
 export default function MainContent({ children }) {
   return (

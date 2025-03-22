@@ -1,4 +1,4 @@
-import { CornerBorders } from './decorations';
+import { CornerBorders } from '@/decorations';
 
 export default function SectionContainer({ id, children }) {
   return (

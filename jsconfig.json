@@ -1,7 +1,17 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/ui/*": ["./app/components/ui/*"],
+      "@/ui": ["./app/components/ui"],
+      "@/layout/*": ["./app/components/layout/*"],
+      "@/layout": ["./app/components/layout"],
+      "@/sections/*": ["./app/components/sections/*"],
+      "@/sections": ["./app/components/sections"],
+      "@/decorations/*": ["./app/components/decorations/*"],
+      "@/decorations": ["./app/components/decorations"],
+      "@/styles/*": ["./app/styles/*"],
+      "@/styles": ["./app/styles"]
     }
   }
 }

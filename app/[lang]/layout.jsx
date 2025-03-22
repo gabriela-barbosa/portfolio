@@ -1,4 +1,4 @@
-import '@/app/globals.css';
+import '@/styles/globals.css';
 import { Inter, Poppins, Fira_Code } from 'next/font/google';
 import { locales, defaultLocale } from '@/middleware';
 import { getDictionary } from './dictionaries/index';

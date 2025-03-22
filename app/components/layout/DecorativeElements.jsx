@@ -1,4 +1,4 @@
-import { ButterflyDecoration, FlowerDecoration } from './decorations';
+import { ButterflyDecoration, FlowerDecoration } from '@/decorations';
 
 export default function DecorativeElements() {
   return (
@@ -21,4 +21,4 @@ export default function DecorativeElements() {
       <ButterflyDecoration className="fixed bottom-20 left-10 hidden lg:block" />
     </>
   );
-}
+} 

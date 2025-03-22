@@ -1,6 +1,6 @@
-import { WaveDecoration } from './decorations';
+import { WaveDecoration } from '@/decorations';
 import { formatCopyright } from '@/app/utils/date';
-import Pill from '@/app/components/Pill';
+import Pill from '@/ui/Pill';
 
 export default function Footer({ copyright, site }) {
   const copyrightText = formatCopyright(copyright);
@@ -8,10 +8,8 @@ export default function Footer({ copyright, site }) {
   return (
     <div className="w-full mt-20">
       <footer className="relative w-screen left-[50%] right-[50%] ml-[-50vw] mr-[-50vw] bg-card-bg">
-        {/* Wave decoration */}
         <WaveDecoration className="absolute top-0 left-0 w-full" />
         
-        {/* Content */}
         <div className="max-w-4xl mx-auto px-4 py-10 text-center">
           {site && (
             <div className="mb-8">
@@ -29,7 +27,6 @@ export default function Footer({ copyright, site }) {
           <p className="text-sm text-foreground/70 hover:text-foreground transition-colors duration-300 relative">
             <span className="absolute -top-1 -left-2 text-xs text-primary opacity-70">♥</span>
             {copyrightText}
-            <span className="absolute -top-1 -right-2 text-xs text-primary opacity-70">♥</span>
           </p>
         </div>
       </footer>

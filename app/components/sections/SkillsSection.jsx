@@ -1,6 +1,6 @@
-import SectionContainer from '@/app/components/SectionContainer';
-import SectionHeader from '@/app/components/SectionHeader';
-import { StarDecoration } from '@/app/components/decorations';
+import SectionContainer from '@/ui/SectionContainer';
+import SectionHeader from '@/ui/SectionHeader';
+import { StarDecoration } from '@/decorations';
 
 export default function SkillsSection({ dictionary }) {
   const { skills } = dictionary;

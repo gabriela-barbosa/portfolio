@@ -1,6 +1,6 @@
-import SectionContainer from '@/app/components/SectionContainer';
-import SectionHeader from '@/app/components/SectionHeader';
-import { FlowerDecoration, PhotoFrame } from '@/app/components/decorations';
+import SectionContainer from '@/ui/SectionContainer';
+import SectionHeader from '@/ui/SectionHeader';
+import { FlowerDecoration, PhotoFrame } from '@/decorations';
 
 export default function AboutSection({ dictionary }) {
   return (
