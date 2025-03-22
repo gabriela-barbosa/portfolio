@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="none">
+  <!-- Gradient Background Circle -->
+  <circle cx="500" cy="500" r="460" fill="url(#grad)" />
+  
+  <!-- Code Brackets -->
+  <path d="M340 280L220 500L340 720" stroke="#fff" stroke-width="60" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M660 280L780 500L660 720" stroke="#fff" stroke-width="60" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Slash between brackets -->
+  <path d="M440 250L560 750" stroke="#fff" stroke-width="60" stroke-linecap="round" />
+  
+  <!-- Define gradient -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bd93f9" /> <!-- Roxo (primary color) -->
+      <stop offset="100%" stop-color="#6272a4" /> <!-- Azul (secondary color) -->
+    </linearGradient>
+  </defs>
+</svg> 
