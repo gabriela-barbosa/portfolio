@@ -1,0 +1,143 @@
+{
+  "name": "Gabriela Barbosa",
+  "title": "Ingeniera de Software Frontend",
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "education": "Educación"
+  },
+  "links": {
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "content": "Desarrolladora de software especializada en tecnologías front-end y experiencia de usuario. Creo interfaces elegantes y responsivas que mejoran la interacción del usuario. Trabajo en equipos ágiles para empresas de tecnología, desarrollando productos digitales innovadores."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "jobs": [
+      {
+        "title": "Ingeniera de Software",
+        "company": "Mercado Livre",
+        "period": "enero de 2025 - Presente",
+        "responsibilities": [
+          "Desarrollo frontend con tecnologías modernas"
+        ],
+        "technologies": ["Next.js", "React", "TypeScript"]
+      },
+      {
+        "title": "Ingeniera de Software",
+        "company": "Loggi",
+        "period": "septiembre de 2023 - enero de 2025",
+        "responsibilities": [
+          "Reconstrucción de la aplicación y sitio web de la empresa",
+          "Rediseño del frontend centrado en la experiencia del usuario",
+          "Creación de nueva biblioteca de sistema de diseño",
+          "Desarrollo de páginas responsivas y optimizadas"
+        ],
+        "technologies": ["Next.js", "React", "TypeScript", "Material UI"]
+      },
+      {
+        "title": "Ingeniera de Software",
+        "company": "Lend",
+        "period": "octubre de 2022 - mayo de 2023",
+        "responsibilities": [
+          "Desarrollo Full Stack en proyectos de CCB as a Service",
+          "Creación y mantenimiento de APIs REST",
+          "Aplicación de metodología Scrum"
+        ],
+        "technologies": ["Next.js", "React", "TypeScript", "Python", "FastAPI", "REST APIs", "Git"]
+      },
+      {
+        "title": "Ingeniera de Software",
+        "company": "OLX Brasil",
+        "period": "julio de 2021 - octubre de 2022",
+        "responsibilities": [
+          "Desarrollo Full Stack en equipo de User Notification",
+          "Implementación de soluciones serverless",
+          "Monitoreo de aplicaciones"
+        ],
+        "technologies": ["React", "TypeScript", "JavaScript", "Node.js", "AWS", "Serverless", "Docker", "PostgreSQL", "Git"]
+      },
+      {
+        "title": "Analista de Desarrollo",
+        "company": "M4U",
+        "period": "enero de 2021 - julio de 2021",
+        "responsibilities": [
+          "Desarrollo web en proyectos de sub-adquirencia",
+          "Desarrollo frontend y backend",
+          "Monitoreo de aplicaciones"
+        ],
+        "technologies": ["React", "Redux", "JavaScript", "Kotlin", "SpringBoot", "Go", "PostgreSQL", "Git", "Docker"]
+      },
+      {
+        "title": "Pasante de Desarrollo",
+        "company": "M4U",
+        "period": "enero de 2020 - enero de 2021",
+        "responsibilities": [
+          "Desarrollo web en proyectos de sub-adquirencia",
+          "Trabajo en equipo con metodologías ágiles"
+        ],
+        "technologies": ["React", "JavaScript"]
+      },
+      {
+        "title": "Pasante de Desarrollo",
+        "company": "BNDES",
+        "period": "marzo de 2018 - enero de 2020",
+        "responsibilities": [
+          "Desarrollo Full Stack",
+          "Desarrollo de APIs e interfaces de usuario"
+        ],
+        "technologies": ["Angular", "TypeScript", "SASS", "Java"]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades",
+    "categories": {
+      "frontend": {
+        "title": "Frontend",
+        "items": ["Next.js", "React", "TypeScript", "JavaScript", "Material UI", "Angular", "Redux", "SASS", "HTML/CSS"]
+      },
+      "backend": {
+        "title": "Backend",
+        "items": ["Node.js", "Python", "Java", "Kotlin", "SpringBoot", "Go", "FastAPI", "REST APIs", "SQL", "PostgreSQL"]
+      },
+      "tools": {
+        "title": "Herramientas y Otros",
+        "items": ["Git", "Docker", "AWS", "Serverless", "Lambda", "SQS/SNS", "Kibana", "Grafana", "Prometheus", "Scrum", "Kanban", "Code Review", "Amplify"]
+      }
+    }
+  },
+  "education": {
+    "title": "Educación",
+    "items": [
+      {
+        "degree": "Licenciatura en Ciencias de la Computación",
+        "school": "Universidad Federal Fluminense",
+        "period": "2016 - 2024"
+      },
+      {
+        "degree": "Certificación Amazon AWS Cloud Practitioner",
+        "school": "Amazon Web Services",
+        "period": "2023"
+      }
+    ]
+  },
+  "site": {
+    "title": "Sobre este sitio",
+    "content": "Portafolio construido con tecnologías modernas para demostrar mis habilidades en desarrollo web frontend.",
+    "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
+  },
+  "footer": {
+    "copyright": "© {{year}} Gabriela Barbosa. Todos los derechos reservados."
+  },
+  "language": {
+    "select": "Seleccionar idioma",
+    "en": "Inglés",
+    "pt": "Portugués",
+    "es-AR": "Español (Argentina)"
+  }
+} 

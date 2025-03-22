@@ -1,26 +1,113 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1e1e2e;
+  --foreground: #f5ebff;
+  --primary: #ff80bf;
+  --secondary: #d580ff;
+  --accent: #80d4ff;
+  --card-bg: #2d2d44;
+  --border-color: #ff80bf;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-poppins), var(--font-inter), system-ui, sans-serif;
+  --font-mono: var(--font-fira-code), monospace;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #fff5fb;
+    --foreground: #48305c;
+    --primary: #ff5caa;
+    --secondary: #cb72e0;
+    --accent: #6bb3e0;
+    --card-bg: #fff0f8;
+    --border-color: #ffcdeb;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins), var(--font-inter), system-ui, sans-serif;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins), var(--font-inter), system-ui, sans-serif;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.015em;
+}
+
+code, pre {
+  font-family: var(--font-fira-code), monospace;
+}
+
+/* Efeito de destaque mais sutil para texto */
+.text-primary {
+  text-shadow: 0 0 4px rgba(255, 128, 191, 0.4);
+}
+
+/* Adiciona sombra sutil nos cards quando passar o mouse */
+.bg-card-bg:hover {
+  box-shadow: 0 0 15px rgba(255, 128, 191, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Adiciona borda com sombra leve */
+.border-border-color {
+  box-shadow: 0 0 3px rgba(255, 128, 191, 0.2);
+}
+
+/* Animação de cursor piscando nos links */
+a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+/* Adiciona um efeito de brilho sutil aos botões e elementos interativos */
+button, .interactive {
+  position: relative;
+  overflow: hidden;
+}
+
+button:after, .interactive:after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(to bottom right, 
+                               rgba(255, 255, 255, 0) 0%,
+                               rgba(255, 255, 255, 0.03) 40%, 
+                               rgba(255, 255, 255, 0.1) 50%, 
+                               rgba(255, 255, 255, 0.03) 60%,
+                               rgba(255, 255, 255, 0) 100%);
+  transform: rotate(30deg);
+  transition: transform 0.7s;
+}
+
+button:hover:after, .interactive:hover:after {
+  transform: rotate(30deg) translate(200px, 0);
 }

@@ -1,0 +1,143 @@
+{
+  "name": "Gabriela Barbosa",
+  "title": "Frontend Software Engineer",
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "education": "Education"
+  },
+  "links": {
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  },
+  "about": {
+    "title": "About",
+    "content": "Software developer specialized in front-end technologies and user experience. I create elegant and responsive interfaces that enhance user interaction. I work in agile teams for technology companies, developing innovative digital products."
+  },
+  "experience": {
+    "title": "Experience",
+    "jobs": [
+      {
+        "title": "Software Engineer",
+        "company": "Mercado Livre",
+        "period": "January 2025 - Present",
+        "responsibilities": [
+          "Frontend development with modern technologies"
+        ],
+        "technologies": ["Next.js", "React", "TypeScript"]
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Loggi",
+        "period": "September 2023 - January 2025",
+        "responsibilities": [
+          "Reconstruction of company's app and website",
+          "Frontend redesign focused on user experience",
+          "Creation of new design system library",
+          "Development of responsive and optimized pages"
+        ],
+        "technologies": ["Next.js", "React", "TypeScript", "Material UI"]
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Lend",
+        "period": "October 2022 - May 2023",
+        "responsibilities": [
+          "Full Stack development on CCB as a Service projects",
+          "Creation and maintenance of REST APIs",
+          "Application of Scrum methodology"
+        ],
+        "technologies": ["Next.js", "React", "TypeScript", "Python", "FastAPI", "REST APIs", "Git"]
+      },
+      {
+        "title": "Software Engineer",
+        "company": "OLX Brasil",
+        "period": "July 2021 - October 2022",
+        "responsibilities": [
+          "Full Stack development in User Notification team",
+          "Implementation of serverless solutions",
+          "Application monitoring"
+        ],
+        "technologies": ["React", "TypeScript", "JavaScript", "Node.js", "AWS", "Serverless", "Docker", "PostgreSQL", "Git"]
+      },
+      {
+        "title": "Development Analyst",
+        "company": "M4U",
+        "period": "January 2021 - July 2021",
+        "responsibilities": [
+          "Web development in sub-acquirership projects",
+          "Frontend and backend development",
+          "Application monitoring"
+        ],
+        "technologies": ["React", "Redux", "JavaScript", "Kotlin", "SpringBoot", "Go", "PostgreSQL", "Git", "Docker"]
+      },
+      {
+        "title": "Development Intern",
+        "company": "M4U",
+        "period": "January 2020 - January 2021",
+        "responsibilities": [
+          "Web development in sub-acquirership projects",
+          "Team collaboration with agile methodologies"
+        ],
+        "technologies": ["React", "JavaScript"]
+      },
+      {
+        "title": "Development Intern",
+        "company": "BNDES",
+        "period": "March 2018 - January 2020",
+        "responsibilities": [
+          "Full Stack development",
+          "Development of APIs and user interfaces"
+        ],
+        "technologies": ["Angular", "TypeScript", "SASS", "Java"]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "frontend": {
+        "title": "Frontend",
+        "items": ["Next.js", "React", "TypeScript", "JavaScript", "Material UI", "Angular", "Redux", "SASS", "HTML/CSS"]
+      },
+      "backend": {
+        "title": "Backend",
+        "items": ["Node.js", "Python", "Java", "Kotlin", "SpringBoot", "Go", "FastAPI", "REST APIs", "SQL", "PostgreSQL"]
+      },
+      "tools": {
+        "title": "Tools & Others",
+        "items": ["Git", "Docker", "AWS", "Serverless", "Lambda", "SQS/SNS", "Kibana", "Grafana", "Prometheus", "Scrum", "Kanban", "Code Review", "Amplify"]
+      }
+    }
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "Bachelor of Computer Science",
+        "school": "Federal Fluminense University",
+        "period": "2016 - 2024"
+      },
+      {
+        "degree": "Amazon AWS Cloud Practitioner Certification",
+        "school": "Amazon Web Services",
+        "period": "2023"
+      }
+    ]
+  },
+  "site": {
+    "title": "About this site",
+    "content": "Portfolio built with modern technologies to showcase my skills in frontend web development.",
+    "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS"]
+  },
+  "footer": {
+    "copyright": "© {{year}} Gabriela Barbosa. All rights reserved."
+  },
+  "language": {
+    "select": "Select language",
+    "en": "English",
+    "pt": "Portuguese",
+    "es-AR": "Spanish (Argentina)"
+  }
+} 

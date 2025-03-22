@@ -1,0 +1,63 @@
+{
+  "name": "Gabriela Barbosa",
+  "title": "Ingeniera de Software",
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "education": "Educación"
+  },
+  "links": {
+    "linkedin": "LinkedIn",
+    "email": "Correo"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "content": "Ingeniera de Software apasionada con experiencia en desarrollo web y tecnologías cloud. Especializada en construir aplicaciones escalables y trabajar con prácticas modernas de desarrollo."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "job": {
+      "title": "Ingeniera de Software",
+      "company": "Loggi",
+      "period": "2020 - Presente",
+      "responsibilities": [
+        "Desarrollé y mantuve aplicaciones web utilizando tecnologías modernas",
+        "Colaboré con equipos multifuncionales para entregar soluciones de software de alta calidad",
+        "Implementé mejores prácticas para calidad de código y optimización de rendimiento"
+      ]
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "categories": {
+      "frontend": {
+        "title": "Frontend",
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS"]
+      },
+      "backend": {
+        "title": "Backend",
+        "items": ["Node.js", "Python", "SQL", "REST APIs"]
+      },
+      "tools": {
+        "title": "Herramientas y Otros",
+        "items": ["Git", "AWS", "Docker", "CI/CD"]
+      }
+    }
+  },
+  "education": {
+    "title": "Educación",
+    "degree": "Licenciatura en Ciencias de la Computación",
+    "school": "Universidad Federal Fluminense",
+    "period": "2016 - 2024"
+  },
+  "footer": {
+    "copyright": "© {{year}} Gabriela Barbosa. Todos los derechos reservados."
+  },
+  "language": {
+    "select": "Seleccionar idioma",
+    "en": "Inglés",
+    "pt": "Portugués",
+    "es-AR": "Español (Argentina)"
+  }
+} 

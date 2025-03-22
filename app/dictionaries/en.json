@@ -1,0 +1,63 @@
+{
+  "name": "Gabriela Barbosa",
+  "title": "Software Engineer",
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "education": "Education"
+  },
+  "links": {
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  },
+  "about": {
+    "title": "About",
+    "content": "Passionate Software Engineer with expertise in web development and cloud technologies. Experienced in building scalable applications and working with modern development practices."
+  },
+  "experience": {
+    "title": "Experience",
+    "job": {
+      "title": "Software Engineer",
+      "company": "Loggi",
+      "period": "2020 - Present",
+      "responsibilities": [
+        "Developed and maintained web applications using modern technologies",
+        "Collaborated with cross-functional teams to deliver high-quality software solutions",
+        "Implemented best practices for code quality and performance optimization"
+      ]
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "frontend": {
+        "title": "Frontend",
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS"]
+      },
+      "backend": {
+        "title": "Backend",
+        "items": ["Node.js", "Python", "SQL", "REST APIs"]
+      },
+      "tools": {
+        "title": "Tools & Others",
+        "items": ["Git", "AWS", "Docker", "CI/CD"]
+      }
+    }
+  },
+  "education": {
+    "title": "Education",
+    "degree": "Bachelor in Computer Science",
+    "school": "Universidade Federal Fluminense",
+    "period": "2016 - 2024"
+  },
+  "footer": {
+    "copyright": "© {{year}} Gabriela Barbosa. All rights reserved."
+  },
+  "language": {
+    "select": "Select language",
+    "en": "English",
+    "pt": "Portuguese",
+    "es-AR": "Spanish (Argentina)"
+  }
+} 
