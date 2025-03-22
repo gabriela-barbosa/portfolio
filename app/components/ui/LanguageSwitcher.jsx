@@ -3,27 +3,34 @@
 import { useRouter, usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
-export default function LanguageSwitcher({ dictionary, lang }) {
+export default function LanguageSwitcher({ dictionary }) {
   const router = useRouter();
   const pathname = usePathname();
-  const [starPosition, setStarPosition] = useState({ x: 0, y: 0 });
+  const [lang, setLang] = useState('');
   const [hovered, setHovered] = useState(false);
+  const [starPosition, setStarPosition] = useState({ x: 0, y: 0 });
   
   useEffect(() => {
+    // Extrair o código de idioma do pathname
+    const segments = pathname.split('/');
+    const langCode = segments.length > 1 ? segments[1] : 'pt';
+    
+    setLang(langCode);
+    
+    // Pequena animação aleatória para a estrela
     const interval = setInterval(() => {
       setStarPosition({
-        x: Math.sin(Date.now() / 1000) * 5,
-        y: Math.cos(Date.now() / 1500) * 5
+        x: Math.random() * 2 - 1,  // Valor entre -1 e 1
+        y: Math.random() * 2 - 1,  // Valor entre -1 e 1
       });
-    }, 50);
+    }, 3000);
     
     return () => clearInterval(interval);
-  }, []);
+  }, [pathname]);
   
   const handleChangeLanguage = (e) => {
     const newLang = e.target.value;
-    const currentPath = pathname;
-    const segments = currentPath.split('/');
+    const segments = pathname.split('/');
     segments[1] = newLang;
     router.push(segments.join('/'));
   };

@@ -1,0 +1,17 @@
+:root {
+  --foreground-rgb: 33, 36, 45;
+  --background-rgb: 255, 255, 255;
+  --primary-rgb: 124, 63, 215;
+  --secondary-rgb: 237, 233, 254;
+  --svg-filter: invert(12%) sepia(10%) saturate(427%) hue-rotate(182deg) brightness(95%) contrast(94%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 236, 237, 238;
+    --background-rgb: 23, 23, 26;
+    --primary-rgb: 161, 114, 231;
+    --secondary-rgb: 53, 36, 84;
+    --svg-filter: invert(93%) sepia(6%) saturate(137%) hue-rotate(185deg) brightness(103%) contrast(92%);
+  }
+} 
