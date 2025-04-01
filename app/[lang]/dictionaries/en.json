@@ -7,7 +7,8 @@
     "about": "About",
     "experience": "Experience",
     "skills": "Skills",
-    "education": "Education"
+    "education": "Education",
+    "projects": "Projects"
   },
   "links": {
     "linkedin": "LinkedIn",
@@ -145,5 +146,42 @@
     "en": "English",
     "pt": "Portuguese",
     "es-AR": "Spanish (Argentina)"
+  },
+  "projects": {
+    "title": "Projects",
+    "viewProject": "View Project",
+    "items": [
+      {
+        "title": "Mercado Livre Risk Management",
+        "description": "Development of a comprehensive risk management backoffice system. Created modern interfaces for risk assessment and compliance monitoring, implementing reusable components and best practices.",
+        "technologies": ["React", "TypeScript", "CSS"],
+        "link": "https://mercadolibre.com"
+      },
+      {
+        "title": "Loggi Website & App",
+        "description": "Reconstruction of Loggi's shipping website and mobile app. Created responsive and optimized pages with modern animations and transitions, focusing on user experience and performance.",
+        "image": "/loggienvios.gif",
+        "technologies": ["Next.js", "React", "TypeScript", "Material UI"],
+        "link": "https://loggi.com"
+      },
+      {
+        "title": "Loggi Design System",
+        "description": "Development of a new design system library for Loggi. Created reusable components and established design patterns to ensure consistency across the platform.",
+        "technologies": ["React", "TypeScript", "Material UI", "Storybook"],
+        "link": "https://loggi.com"
+      },
+      {
+        "title": "Lend CCB Platform",
+        "description": "Full-stack development of a CCB (Bank Credit Certificate) as a Service platform. Implemented REST APIs and modern interfaces for financial document management.",
+        "technologies": ["Next.js", "React", "TypeScript", "Python", "FastAPI"],
+        "link": "https://lend.com.br"
+      },
+      {
+        "title": "OLX User Notifications",
+        "description": "Development of a serverless notification system for OLX users. Created efficient interfaces for notification management and implemented real-time updates.",
+        "technologies": ["React", "TypeScript", "Node.js", "AWS", "Serverless"],
+        "link": "https://olx.com.br"
+      }
+    ]
   }
 } 
