@@ -66,12 +66,15 @@ export default function LanguageSwitcher({ dictionary }) {
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'right 0.5rem center',
             backgroundSize: '1.5em 1.5em',
-            backdropFilter: 'blur(8px)'
+            backdropFilter: 'blur(8px)',
+            color: 'var(--foreground)',
+            WebkitAppearance: 'none',
+            MozAppearance: 'none'
           }}
         >
-          <option value="pt" className="bg-card-bg text-foreground">{dictionary.language.pt}</option>
-          <option value="en" className="bg-card-bg text-foreground">{dictionary.language.en}</option>
-          <option value="es-AR" className="bg-card-bg text-foreground">{dictionary.language['es-AR']}</option>
+          <option value="pt" style={{ backgroundColor: 'var(--card-bg)', color: 'var(--foreground)' }}>{dictionary.language.pt}</option>
+          <option value="en" style={{ backgroundColor: 'var(--card-bg)', color: 'var(--foreground)' }}>{dictionary.language.en}</option>
+          <option value="es-AR" style={{ backgroundColor: 'var(--card-bg)', color: 'var(--foreground)' }}>{dictionary.language['es-AR']}</option>
         </select>
       </div>
     </div>

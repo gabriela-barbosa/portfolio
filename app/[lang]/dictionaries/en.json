@@ -26,9 +26,12 @@
         "company": "Mercado Livre",
         "period": "January 2025 - Present",
         "responsibilities": [
-          "Frontend development with modern technologies"
+          "Frontend development in the Risk and Compliance team",
+          "Creation and maintenance of backoffice for company risk management",
+          "Implementation of modern and responsive interfaces",
+          "Development of reusable components"
         ],
-        "technologies": ["Next.js", "React", "TypeScript"]
+        "technologies": ["React", "TypeScript", "CSS"]
       },
       {
         "title": "Software Engineer",
@@ -106,11 +109,11 @@
       },
       "backend": {
         "title": "Backend",
-        "items": ["Node.js", "Python", "Java", "Kotlin", "SpringBoot", "Go", "FastAPI", "REST APIs", "SQL", "PostgreSQL"]
+        "items": ["Node.js", "Kotlin", "SpringBoot", "REST APIs", "SQL"]
       },
       "tools": {
         "title": "Tools & Others",
-        "items": ["Git", "Docker", "AWS", "Serverless", "Lambda", "SQS/SNS", "Kibana", "Grafana", "Prometheus", "Scrum", "Kanban", "Code Review", "Amplify"]
+        "items": ["Git", "Kibana", "Grafana", "Prometheus", "Scrum", "Kanban", "Code Review", "Amplify"]
       }
     }
   },
@@ -131,7 +134,7 @@
   },
   "site": {
     "title": "About this site",
-    "content": "Portfolio built with modern technologies to showcase my skills in frontend web development.",
+    "content": "Portfolio built with Next.js, TypeScript and Tailwind CSS.",
     "technologies": ["Next.js", "React", "Tailwind CSS"]
   },
   "footer": {

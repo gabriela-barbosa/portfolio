@@ -26,9 +26,12 @@
         "company": "Mercado Livre",
         "period": "enero de 2025 - Presente",
         "responsibilities": [
-          "Desarrollo frontend con tecnologías modernas"
+          "Desarrollo frontend en el equipo de Riesgo y Cumplimiento",
+          "Creación y mantenimiento de backoffice para gestión de riesgos de la empresa",
+          "Implementación de interfaces modernas y responsivas",
+          "Desarrollo de componentes reutilizables"
         ],
-        "technologies": ["Next.js", "React", "TypeScript"]
+        "technologies": ["React", "TypeScript", "CSS"]
       },
       {
         "title": "Ingeniera de Software",
@@ -106,11 +109,11 @@
       },
       "backend": {
         "title": "Backend",
-        "items": ["Node.js", "Python", "Java", "Kotlin", "SpringBoot", "Go", "FastAPI", "REST APIs", "SQL", "PostgreSQL"]
+        "items": ["Node.js", "Kotlin", "SpringBoot", "REST APIs", "SQL"]
       },
       "tools": {
         "title": "Herramientas y Otros",
-        "items": ["Git", "Docker", "AWS", "Serverless", "Lambda", "SQS/SNS", "Kibana", "Grafana", "Prometheus", "Scrum", "Kanban", "Code Review", "Amplify"]
+        "items": ["Git", "Kibana", "Grafana", "Prometheus", "Scrum", "Kanban", "Code Review", "Amplify"]
       }
     }
   },
@@ -131,7 +134,7 @@
   },
   "site": {
     "title": "Sobre este sitio",
-    "content": "Portafolio construido con tecnologías modernas para demostrar mis habilidades en desarrollo web frontend.",
+    "content": "Portafolio construido con Next.js, TypeScript y Tailwind CSS.",
     "technologies": ["Next.js", "React", "Tailwind CSS"]
   },
   "footer": {
