@@ -16,8 +16,7 @@ const eslintConfig = [
       // Import organization rules
       "sort-imports": ["error", {
         "ignoreCase": true,
-        "ignoreDeclarationSort": true, // Let import/order handle declaration sorting
-        "memberSortPattern": "none"
+        "ignoreDeclarationSort": true // Let import/order handle declaration sorting
       }],
       "import/order": ["error", {
         "groups": [
