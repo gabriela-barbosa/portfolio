@@ -6,6 +6,7 @@ import AboutSection from '@/sections/AboutSection';
 import ExperienceSection from '@/sections/ExperienceSection';
 import SkillsSection from '@/sections/SkillsSection';
 import EducationSection from '@/sections/EducationSection';
+import Projects from '@/components/Projects';
 import DecorativeElements from '@/layout/DecorativeElements';
 import PageContainer from '@/layout/PageContainer';
 import MainContent from '@/layout/MainContent';
@@ -24,6 +25,7 @@ export default async function Home({ params }) {
         <Header dictionary={dictionary} />
         <AboutSection dictionary={dictionary} />
         <ExperienceSection dictionary={dictionary} />
+        <Projects dictionary={dictionary} />
         <SkillsSection dictionary={dictionary} />
         <EducationSection dictionary={dictionary} />
       </MainContent>

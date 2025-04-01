@@ -7,7 +7,8 @@
     "about": "Sobre",
     "experience": "Experiência",
     "skills": "Habilidades",
-    "education": "Educação"
+    "education": "Educação",
+    "projects": "Projetos"
   },
   "links": {
     "linkedin": "LinkedIn",
@@ -145,5 +146,42 @@
     "en": "Inglês",
     "pt": "Português",
     "es-AR": "Espanhol (Argentina)"
+  },
+  "projects": {
+    "title": "Projetos",
+    "viewProject": "Ver Projeto",
+    "items": [
+      {
+        "title": "Gestão de Risco Mercado Livre",
+        "description": "Desenvolvimento de um sistema abrangente de backoffice para gestão de riscos. Criação de interfaces modernas para avaliação de risco e monitoramento de conformidade, implementando componentes reutilizáveis e melhores práticas.",
+        "technologies": ["React", "TypeScript", "CSS"],
+        "link": "https://mercadolibre.com"
+      },
+      {
+        "title": "Site e App Loggi",
+        "description": "Reconstrução do site de envios e aplicativo móvel da Loggi. Criação de páginas responsivas e otimizadas com animações e transições modernas, focando na experiência do usuário e performance.",
+        "image": "/loggienvios.gif",
+        "technologies": ["Next.js", "React", "TypeScript", "Material UI"],
+        "link": "https://loggi.com"
+      },
+      {
+        "title": "Sistema de Design Loggi",
+        "description": "Desenvolvimento de uma nova biblioteca de sistema de design para a Loggi. Criação de componentes reutilizáveis e estabelecimento de padrões de design para garantir consistência em toda a plataforma.",
+        "technologies": ["React", "TypeScript", "Material UI", "Storybook"],
+        "link": "https://loggi.com"
+      },
+      {
+        "title": "Plataforma CCB Lend",
+        "description": "Desenvolvimento full-stack de uma plataforma de CCB (Cédula de Crédito Bancário) as a Service. Implementação de APIs REST e interfaces modernas para gestão de documentos financeiros.",
+        "technologies": ["Next.js", "React", "TypeScript", "Python", "FastAPI"],
+        "link": "https://lend.com.br"
+      },
+      {
+        "title": "Sistema de Notificações OLX",
+        "description": "Desenvolvimento de um sistema serverless de notificações para usuários da OLX. Criação de interfaces eficientes para gestão de notificações e implementação de atualizações em tempo real.",
+        "technologies": ["React", "TypeScript", "Node.js", "AWS", "Serverless"],
+        "link": "https://olx.com.br"
+      }
+    ]
   }
 } 
