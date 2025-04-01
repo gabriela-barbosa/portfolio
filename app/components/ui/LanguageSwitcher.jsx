@@ -36,7 +36,7 @@ export default function LanguageSwitcher({ dictionary }) {
   };
 
   return (
-    <div className="fixed top-4 right-4 z-30 flex items-center">
+    <div className="fixed top-4 right-4 z-[60] flex items-center">
       <div 
         className={`relative mr-2 transition-all duration-300 ${hovered ? 'scale-125 rotate-45' : 'rotate-0'}`}
         style={{ 
