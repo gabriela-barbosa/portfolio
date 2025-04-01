@@ -32,9 +32,9 @@ export default async function RootLayout({ children }) {
   
   return (
     <div className={`${inter.variable} ${poppins.variable} ${firaCode.variable} min-h-screen bg-background`}>
-      <div className="fixed top-0 left-0 w-full h-1 bg-gradient-to-r from-primary via-secondary to-accent opacity-90 z-10"></div>
-      <div className="fixed top-0 right-0 w-96 h-96 bg-secondary opacity-5 blur-3xl rounded-full -translate-y-1/2 translate-x-1/2 z-0"></div>
-      <div className="fixed bottom-0 left-0 w-96 h-96 bg-primary opacity-5 blur-3xl rounded-full translate-y-1/2 -translate-x-1/2 z-0"></div>
+      <div className="fixed top-0 left-0 w-full h-1 bg-gradient-to-r from-primary via-secondary to-accent opacity-90 z-50"></div>
+      <div className="fixed top-0 right-0 w-96 h-96 bg-secondary opacity-5 blur-3xl rounded-full -translate-y-1/2 translate-x-1/2 z-40"></div>
+      <div className="fixed bottom-0 left-0 w-96 h-96 bg-primary opacity-5 blur-3xl rounded-full translate-y-1/2 -translate-x-1/2 z-40"></div>
       {children}
     </div>
   );

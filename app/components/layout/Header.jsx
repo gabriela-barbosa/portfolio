@@ -17,7 +17,7 @@ export default function Header({ dictionary }) {
   }
 
   return (
-    <header className="relative pt-10">
+    <header className="relative pt-10 z-50">
       {/* Name and title with cursor effect */}
       <h1 className="text-4xl md:text-6xl font-bold mb-6 inline-block cursor-effect">
         {dictionary.name}
