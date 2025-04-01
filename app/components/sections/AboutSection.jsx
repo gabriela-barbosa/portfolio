@@ -4,7 +4,7 @@ import { FlowerDecoration, PhotoFrame } from '@/decorations';
 
 export default function AboutSection({ dictionary }) {
   return (
-    <SectionContainer className="relative">
+    <SectionContainer id="about" className="relative">
       <SectionHeader title={dictionary.about.title} />
       
       <FlowerDecoration className="absolute top-4 right-4 hidden md:block" />

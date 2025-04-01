@@ -53,16 +53,16 @@
         "responsibilities": [
           "Desenvolvimento Full Stack em projetos de CCB as a Service",
           "Criação e manutenção de APIs REST",
-          "Aplicação da metodologia Scrum"
+          "Aplicação de metodologia Scrum"
         ],
-        "technologies": ["Next.js", "React", "TypeScript", "Python", "FastAPI", "APIs REST", "Git"]
+        "technologies": ["Next.js", "React", "TypeScript", "Python", "FastAPI", "REST APIs", "Git"]
       },
       {
         "title": "Engenheira de Software",
         "company": "OLX Brasil",
         "period": "Julho 2021 - Outubro 2022",
         "responsibilities": [
-          "Desenvolvimento Full Stack no time de Notificação de Usuários",
+          "Desenvolvimento Full Stack no time de User Notification",
           "Implementação de soluções serverless",
           "Monitoramento de aplicações"
         ],
@@ -73,7 +73,7 @@
         "company": "M4U",
         "period": "Janeiro 2021 - Julho 2021",
         "responsibilities": [
-          "Desenvolvimento web em projetos de sub-adquirência",
+          "Desenvolvimento web em projetos de sub-adquirencia",
           "Desenvolvimento frontend e backend",
           "Monitoramento de aplicações"
         ],
@@ -84,8 +84,8 @@
         "company": "M4U",
         "period": "Janeiro 2020 - Janeiro 2021",
         "responsibilities": [
-          "Desenvolvimento web em projetos de sub-adquirência",
-          "Colaboração em equipe com metodologias ágeis"
+          "Desenvolvimento web em projetos de sub-adquirencia",
+          "Trabalho em equipe com metodologias ágeis"
         ],
         "technologies": ["React", "JavaScript"]
       },
@@ -110,7 +110,7 @@
       },
       "backend": {
         "title": "Backend",
-        "items": ["Node.js", "Kotlin", "SpringBoot", "APIs REST", "SQL"]
+        "items": ["Node.js", "Kotlin", "SpringBoot", "REST APIs", "SQL"]
       },
       "tools": {
         "title": "Ferramentas e Outros",
@@ -145,21 +145,21 @@
     "select": "Selecionar idioma",
     "en": "Inglês",
     "pt": "Português",
-    "es-AR": "Espanhol (Argentina)"
+    "es": "Espanhol"
   },
   "projects": {
     "title": "Projetos",
     "viewProject": "Ver Projeto",
     "items": [
       {
-        "title": "Gestão de Risco Mercado Livre",
-        "description": "Desenvolvimento de um sistema abrangente de backoffice para gestão de riscos. Criação de interfaces modernas para avaliação de risco e monitoramento de conformidade, implementando componentes reutilizáveis e melhores práticas.",
+        "title": "Gestão de Riscos Mercado Livre",
+        "description": "Desenvolvimento de um sistema integral de gestão de riscos backoffice. Criação de interfaces modernas para avaliação de riscos e monitoramento de compliance, implementando componentes reutilizáveis e melhores práticas.",
         "technologies": ["React", "TypeScript", "CSS"],
         "link": "https://mercadolibre.com"
       },
       {
         "title": "Site e App Loggi",
-        "description": "Reconstrução do site de envios e aplicativo móvel da Loggi. Criação de páginas responsivas e otimizadas com animações e transições modernas, focando na experiência do usuário e performance.",
+        "description": "Reconstrução do site e aplicativo móvel da Loggi. Criação de páginas responsivas e otimizadas com animações e transições modernas, focando na experiência do usuário e performance.",
         "image": "/loggienvios.gif",
         "technologies": ["Next.js", "React", "TypeScript", "Material UI"],
         "link": "https://loggi.com"
@@ -172,7 +172,7 @@
       },
       {
         "title": "Plataforma CCB Lend",
-        "description": "Desenvolvimento full-stack de uma plataforma de CCB (Cédula de Crédito Bancário) as a Service. Implementação de APIs REST e interfaces modernas para gestão de documentos financeiros.",
+        "description": "Desenvolvimento full-stack de uma plataforma de CCB (Certificado de Crédito Bancário) as a Service. Implementação de APIs REST e interfaces modernas para gestão de documentos financeiros.",
         "technologies": ["Next.js", "React", "TypeScript", "Python", "FastAPI"],
         "link": "https://lend.com.br"
       },

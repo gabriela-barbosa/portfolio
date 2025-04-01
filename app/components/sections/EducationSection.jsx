@@ -3,7 +3,7 @@ import SectionHeader from '@/ui/SectionHeader';
 
 export default function EducationSection({ dictionary }) {
   return (
-    <SectionContainer className="relative">
+    <SectionContainer id="education" className="relative">
       <SectionHeader title={dictionary.education.title} />
       
       <div className="absolute top-4 right-4 w-8 h-8 opacity-15 pointer-events-none hidden md:block">

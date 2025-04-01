@@ -122,7 +122,7 @@
     "title": "Educación",
     "items": [
       {
-        "degree": "Licenciatura en Ciencias de la Computación",
+        "degree": "Bachillerato en Ciencias de la Computación",
         "school": "Universidad Federal Fluminense",
         "period": "2016 - 2024"
       },
@@ -145,7 +145,7 @@
     "select": "Seleccionar idioma",
     "en": "Inglés",
     "pt": "Portugués",
-    "es-AR": "Español (Argentina)"
+    "es": "Español"
   },
   "projects": {
     "title": "Proyectos",

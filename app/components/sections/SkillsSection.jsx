@@ -6,7 +6,7 @@ export default function SkillsSection({ dictionary }) {
   const { skills } = dictionary;
   
   return (
-    <SectionContainer className="relative">
+    <SectionContainer id="skills" className="relative">
       <SectionHeader title={skills.title} />
       
       <StarDecoration className="absolute top-4 right-4" />

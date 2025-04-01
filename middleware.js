@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-export const locales = ['en', 'pt', 'es-AR'];
+export const locales = ['en', 'pt', 'es'];
 export const defaultLocale = 'pt';
 
 function getLocale(request) {

@@ -51,7 +51,7 @@
         "company": "Lend",
         "period": "October 2022 - May 2023",
         "responsibilities": [
-          "Full Stack development on CCB as a Service projects",
+          "Full Stack development in CCB as a Service projects",
           "Creation and maintenance of REST APIs",
           "Application of Scrum methodology"
         ],
@@ -73,7 +73,7 @@
         "company": "M4U",
         "period": "January 2021 - July 2021",
         "responsibilities": [
-          "Web development in sub-acquirership projects",
+          "Web development in sub-acquirer projects",
           "Frontend and backend development",
           "Application monitoring"
         ],
@@ -84,7 +84,7 @@
         "company": "M4U",
         "period": "January 2020 - January 2021",
         "responsibilities": [
-          "Web development in sub-acquirership projects",
+          "Web development in sub-acquirer projects",
           "Team collaboration with agile methodologies"
         ],
         "technologies": ["React", "JavaScript"]
@@ -113,7 +113,7 @@
         "items": ["Node.js", "Kotlin", "SpringBoot", "REST APIs", "SQL"]
       },
       "tools": {
-        "title": "Tools & Others",
+        "title": "Tools and Others",
         "items": ["Git", "Kibana", "Grafana", "Prometheus", "Scrum", "Kanban", "Code Review", "Amplify"]
       }
     }
@@ -122,13 +122,13 @@
     "title": "Education",
     "items": [
       {
-        "degree": "Bachelor of Computer Science",
+        "degree": "Bachelor's Degree in Computer Science",
         "school": "Federal Fluminense University",
         "period": "2016 - 2024"
       },
       {
-        "degree": "Computer Science Technical Degree",
-        "school": "Colégio Pedro II",
+        "degree": "Technical Degree in Computer Science",
+        "school": "Pedro II College",
         "period": "2013 - 2015"
       }
     ]
@@ -145,7 +145,7 @@
     "select": "Select language",
     "en": "English",
     "pt": "Portuguese",
-    "es-AR": "Spanish (Argentina)"
+    "es": "Spanish"
   },
   "projects": {
     "title": "Projects",
@@ -153,26 +153,26 @@
     "items": [
       {
         "title": "Mercado Livre Risk Management",
-        "description": "Development of a comprehensive risk management backoffice system. Created modern interfaces for risk assessment and compliance monitoring, implementing reusable components and best practices.",
+        "description": "Development of a comprehensive risk management backoffice system. Creation of modern interfaces for risk assessment and compliance monitoring, implementing reusable components and best practices.",
         "technologies": ["React", "TypeScript", "CSS"],
         "link": "https://mercadolibre.com"
       },
       {
-        "title": "Loggi Website & App",
-        "description": "Reconstruction of Loggi's shipping website and mobile app. Created responsive and optimized pages with modern animations and transitions, focusing on user experience and performance.",
+        "title": "Loggi Website and App",
+        "description": "Reconstruction of Loggi's website and mobile app. Creation of responsive and optimized pages with modern animations and transitions, focusing on user experience and performance.",
         "image": "/loggienvios.gif",
         "technologies": ["Next.js", "React", "TypeScript", "Material UI"],
         "link": "https://loggi.com"
       },
       {
         "title": "Loggi Design System",
-        "description": "Development of a new design system library for Loggi. Created reusable components and established design patterns to ensure consistency across the platform.",
+        "description": "Development of a new design system library for Loggi. Creation of reusable components and establishment of design patterns to ensure consistency across the platform.",
         "technologies": ["React", "TypeScript", "Material UI", "Storybook"],
         "link": "https://loggi.com"
       },
       {
         "title": "Lend CCB Platform",
-        "description": "Full-stack development of a CCB (Bank Credit Certificate) as a Service platform. Implemented REST APIs and modern interfaces for financial document management.",
+        "description": "Full-stack development of a CCB (Bank Credit Certificate) as a Service platform. Implementation of REST APIs and modern interfaces for financial document management.",
         "technologies": ["Next.js", "React", "TypeScript", "Python", "FastAPI"],
         "link": "https://lend.com.br"
       },
