@@ -11,6 +11,17 @@
   --svg-filter: invert(12%) sepia(10%) saturate(427%) hue-rotate(182deg) brightness(95%) contrast(94%);
 }
 
+@theme inline {
+  --content: './app/**/*.{js,jsx,ts,tsx,mdx}';
+  --theme-colors-background: var(--background);
+  --theme-colors-foreground: var(--foreground);
+  --theme-colors-primary: var(--primary);
+  --theme-colors-secondary: var(--secondary);
+  --theme-colors-accent: var(--accent);
+  --theme-colors-card-bg: var(--card-bg);
+  --theme-colors-border-color: var(--border-color);
+}
+
 html {
   scroll-behavior: smooth;
   scroll-timeline: scroll 2s ease-in-out;

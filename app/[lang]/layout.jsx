@@ -30,7 +30,8 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function RootLayout({ children, params }) {
-  const dictionary = await getDictionary(params.lang);
+  const resolvedParams = await params;
+  const dictionary = await getDictionary(resolvedParams.lang);
   
   return (
     <div className={`${inter.variable} ${poppins.variable} ${firaCode.variable} min-h-screen bg-background`}>

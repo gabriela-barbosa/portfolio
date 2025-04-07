@@ -154,33 +154,29 @@
       {
         "title": "Gestão de Riscos Mercado Livre",
         "description": "Desenvolvimento de um sistema integral de gestão de riscos backoffice. Criação de interfaces modernas para avaliação de riscos e monitoramento de compliance, implementando componentes reutilizáveis e melhores práticas.",
-        "technologies": ["React", "TypeScript", "CSS"],
-        "link": "https://mercadolibre.com"
+        "technologies": ["React", "TypeScript", "CSS"]
       },
       {
         "title": "Site e App Loggi",
         "description": "Reconstrução do site e aplicativo móvel da Loggi. Criação de páginas responsivas e otimizadas com animações e transições modernas, focando na experiência do usuário e performance.",
         "image": "/loggienvios.gif",
         "technologies": ["Next.js", "React", "TypeScript", "Material UI"],
-        "link": "https://loggi.com"
+        "link": "https://app.loggi.com"
       },
       {
         "title": "Sistema de Design Loggi",
         "description": "Desenvolvimento de uma nova biblioteca de sistema de design para a Loggi. Criação de componentes reutilizáveis e estabelecimento de padrões de design para garantir consistência em toda a plataforma.",
-        "technologies": ["React", "TypeScript", "Material UI", "Storybook"],
-        "link": "https://loggi.com"
+        "technologies": ["React", "TypeScript", "Material UI", "Storybook"]
       },
       {
         "title": "Plataforma CCB Lend",
         "description": "Desenvolvimento full-stack de uma plataforma de CCB (Certificado de Crédito Bancário) as a Service. Implementação de APIs REST e interfaces modernas para gestão de documentos financeiros.",
-        "technologies": ["Next.js", "React", "TypeScript", "Python", "FastAPI"],
-        "link": "https://lend.com.br"
+        "technologies": ["Next.js", "React", "TypeScript", "Python", "FastAPI"]
       },
       {
         "title": "Sistema de Notificações OLX",
         "description": "Desenvolvimento de um sistema serverless de notificações para usuários da OLX. Criação de interfaces eficientes para gestão de notificações e implementação de atualizações em tempo real.",
-        "technologies": ["React", "TypeScript", "Node.js", "AWS", "Serverless"],
-        "link": "https://olx.com.br"
+        "technologies": ["React", "TypeScript", "Node.js", "AWS", "Serverless"]
       }
     ]
   }

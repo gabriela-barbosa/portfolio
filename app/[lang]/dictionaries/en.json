@@ -154,33 +154,29 @@
       {
         "title": "Mercado Livre Risk Management",
         "description": "Development of a comprehensive risk management backoffice system. Creation of modern interfaces for risk assessment and compliance monitoring, implementing reusable components and best practices.",
-        "technologies": ["React", "TypeScript", "CSS"],
-        "link": "https://mercadolibre.com"
+        "technologies": ["React", "TypeScript", "CSS"]
       },
       {
         "title": "Loggi Website and App",
         "description": "Reconstruction of Loggi's website and mobile app. Creation of responsive and optimized pages with modern animations and transitions, focusing on user experience and performance.",
         "image": "/loggienvios.gif",
         "technologies": ["Next.js", "React", "TypeScript", "Material UI"],
-        "link": "https://loggi.com"
+        "link": "https://app.loggi.com"
       },
       {
         "title": "Loggi Design System",
         "description": "Development of a new design system library for Loggi. Creation of reusable components and establishment of design patterns to ensure consistency across the platform.",
-        "technologies": ["React", "TypeScript", "Material UI", "Storybook"],
-        "link": "https://loggi.com"
+        "technologies": ["React", "TypeScript", "Material UI", "Storybook"]
       },
       {
         "title": "Lend CCB Platform",
         "description": "Full-stack development of a CCB (Bank Credit Certificate) as a Service platform. Implementation of REST APIs and modern interfaces for financial document management.",
-        "technologies": ["Next.js", "React", "TypeScript", "Python", "FastAPI"],
-        "link": "https://lend.com.br"
+        "technologies": ["Next.js", "React", "TypeScript", "Python", "FastAPI"]
       },
       {
         "title": "OLX User Notifications",
         "description": "Development of a serverless notification system for OLX users. Created efficient interfaces for notification management and implemented real-time updates.",
-        "technologies": ["React", "TypeScript", "Node.js", "AWS", "Serverless"],
-        "link": "https://olx.com.br"
+        "technologies": ["React", "TypeScript", "Node.js", "AWS", "Serverless"]
       }
     ]
   }

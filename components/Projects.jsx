@@ -80,7 +80,7 @@ export default function Projects({ dictionary }) {
                 ))}
               </div>
               
-              <Link
+              {project.link && <Link
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -101,6 +101,7 @@ export default function Projects({ dictionary }) {
                   />
                 </svg>
               </Link>
+              }
             </div>
           </div>
         ))}
