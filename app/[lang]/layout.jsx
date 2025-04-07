@@ -4,18 +4,27 @@ import { locales, defaultLocale } from '@/middleware';
 import { getDictionary } from './dictionaries/index';
 import Navigation from '@/components/Navigation';
 
-const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-inter' });
+const inter = Inter({ 
+  subsets: ['latin'], 
+  display: 'swap', 
+  variable: '--font-inter',
+  preload: true
+});
+
 const poppins = Poppins({ 
   weight: ['300', '400', '500', '600', '700'],
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-poppins'
+  variable: '--font-poppins',
+  preload: true
 });
+
 const firaCode = Fira_Code({
   weight: ['400', '500', '600'],
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-fira-code'
+  variable: '--font-fira-code',
+  preload: true
 });
 
 export async function generateMetadata({ params }) {
