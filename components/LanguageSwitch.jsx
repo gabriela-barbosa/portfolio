@@ -95,7 +95,7 @@ const LanguageSwitch = ({ dictionary }) => {
               <li key={opt.value}>
                 <button
                   onClick={() => handleSelect(opt.value)}
-                  className="w-full text-left px-3 py-2 text-sm transition-colors duration-150 hover:opacity-80"
+                  className="w-full text-left px-3 py-2 text-sm transition-colors duration-150 hover:opacity-80 cursor-pointer"
                   style={{
                     backgroundColor: opt.value === currentLang ? '#333333' : '#191919',
                     color: '#f5f5f5',
